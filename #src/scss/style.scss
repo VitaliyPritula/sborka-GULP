@@ -1,0 +1,30 @@
+@import "fonts";
+@import "./header.scss";
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 100px 15px;
+  margin: 0 auto;
+}
+
+body{
+  font-size: 26px;
+  display: flex;
+}
+
+span {
+  font-size: 20;
+  @media (max-width: 767px) {
+    font-size: 15px;
+  }
+}
+
+div{
+  font-size: 30px;
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
+}
